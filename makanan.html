@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="CodeHim">
+  <title>Makanan</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Normalize CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Demo CSS (No need to include it into your project) -->
+  <link rel="stylesheet" href="css/demo.css">
+
+</head>
+
+<body>
+  <header class="intro">
+    <h1>Welcome to WARNETKAMI's Cafe</h1>
+    <p><b>Let's make your own Adventure's more enjoyable</b></p>
+
+    <div class="action">
+      <a href="b4.html" title="Back to download and tutorial page" class="btn back">Back to Home</a>
+    </div>
+  </header>
+
+
+  <main>
+    <!-- Start DEMO HTML (Use the following code into your project)-->
+    <div class="container">
+      <div class="screen-togo">
+        <h2>To Go Menu</h2>
+        <ul class="menu-items">
+          <!--    Menu Item 1    -->
+          <li class="menu-item">
+            <img src="./img/plate__french-fries.webp" alt="French Fries with Ketchup" class="menu-image">
+            <div class="menu-item-dets">
+              <p class="menu-item-heading">French Fries with Ketchup</p>
+              <p class="g-price">Rp7.000</p>
+            </div>
+            <button class="add-button" data-title="French Fies with Ketchup" data-price="7000">Add to Cart</button>
+          </li>
+          <!--    Menu Item 2    -->
+          <li class="menu-item">
+            <img src="./img/plate__salmon-vegetables.webp" alt="Salmon and Vegetables" class="menu-image">
+            <div class="menu-item-dets">
+              <p class="menu-item-heading">Salmon and Vegetables</p>
+              <p class="g-price">Rp49.000</p>
+            </div>
+            <button class="add-button" data-title="Salmon and Vegetables" data-price="49000">Add to Cart</button>
+          </li>
+          <!--    Menu Item 3    -->
+          <li class="menu-item">
+            <img src="./img/plate__spaghetti-meat-sauce.webp" alt="Spaghetti with Sauce" class="menu-image">
+            <div class="menu-item-dets">
+              <p class="menu-item-heading">Spaghetti with Sauce</p>
+              <p class="g-price">Rp12.000</p>
+            </div>
+            <button class="add-button" data-title="Spaghetti with Sauce" data-price="12000">Add to Cart</button>
+          </li>
+          <!--    Menu Item 4    -->
+          <li class="menu-item">
+            <img src="./img/plate__tortellini.webp" alt="Tortellini" class="menu-image">
+            <div class="menu-item-dets">
+              <p class="menu-item-heading">Tortellini</p>
+              <p class="g-price">Rp19.000</p>
+            </div>
+            <button class="add-button" data-title="Tortellini" data-price="19000">Add to Cart</button>
+          </li>
+          <!--    Menu Item 5    -->
+          <li class="menu-item">
+            <img src="./img/plate__chicken-salad.webp" alt="Chicken Salad" class="menu-image">
+            <div class="menu-item-dets">
+              <p class="menu-item-heading">Chicken Salad</p>
+              <p class="g-price">Rp21.000</p>
+            </div>
+            <button class="add-button" data-title="Chicken Salad" data-price="21000">Add to Cart</button>
+          </li>
+        </ul>
+      </div>
+      <div class="screen-cart">
+        <h2>Your Cart</h2>
+        <!--  Cart Items -->
+        <ul class="cart-items">
+        </ul>
+
+        <div class="cart-math">
+          <p>Add items to cart</p>
+        </div>
+        <form>
+          <h4><input type="number" min="1" max="17" id="nomeja"><label>Input Your Number Table/Computer</label></h4>
+          <button type="submit" id="nomeja"><h4>Order Now!</h4></button>
+        </form>
+      </div>
+    </div>
+    <!-- END EDMO HTML (Happy Coding!)-->
+  </main>
+
+
+  <footer class="credit">
+    <div class="copyright text-center my-auto">
+      <p>Copyright WARNETKAMI 2023</p>
+    </div>
+  </footer>
+
+  <!-- jQuery -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+
+  <!-- Shopping Cart Js -->
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
